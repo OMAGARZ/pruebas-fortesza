@@ -11,7 +11,7 @@ describe('Login,',() => {
         cy.contains(' Crear cuenta ').click()
     })
 })
-describe.only('Login Fortesza',() => {
+describe('Login Fortesza',() => {
     it('Deberar iniciar secion en la pagina de fortesza y realizar interacciones ', () =>{
         cy.viewport(1920,1080)
         cy.visit('https://staging.fortesza.com/')
@@ -54,3 +54,4 @@ describe.only('Login Fortesza',() => {
        cy.contains('Cerrar sesión').click()
     })
 })
+
